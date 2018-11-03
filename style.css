@@ -9,6 +9,7 @@ div.header{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    /* grid-gap: 5px; */
 }   
 div.container{
     display: flex;
@@ -27,11 +28,19 @@ div.container div#mic input[type=text]{
     box-shadow:grey 0px 0.8px 0px 0.8px;
     background: url("images/googlemic.png") no-repeat scroll right 3px;
 }
+div#mic div#p{background: whitesmoke;padding: 10px;width: 120px;border-radius: 2px; }
+
+div#mic div#p1{background: whitesmoke;padding: 10px; 
+    border-radius: 2px;margin-left: 150px;margin-top: -36px;}
+div#mic div#p:hover{background:rgba(0, 0, 0, 0.3);border-radius: 2px;}
+div#mic div#p1:hover{background:rgba(0, 0, 0, 0.3);border-radius: 2px;}
+
 div.footer{
     width: 100%;
     bottom: 0px;
     position: fixed;
     background: whitesmoke;
     color:rgba(0, 0, 0, 0.5);
-    display: 
+    display: flex;
+    flex-direction: row;
 }
